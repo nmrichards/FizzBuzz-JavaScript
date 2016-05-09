@@ -1,0 +1,29 @@
+function FizzBuzz(){
+}
+
+FizzBuzz.prototype.fizzBuzz = function(num) {
+  if(num % 3 == 0 && num % 5 == 0){
+    return "FizzBuzz"
+  };
+  if (num % 5 === 0){
+    return "Buzz"
+  };
+  if (num % 3 === 0){
+    return "Fizz"
+  };
+    return num
+};
+
+
+
+//
+// function Player() {
+// }
+// Player.prototype.play = function(song) {
+//   this.currentlyPlayingSong = song;
+//   this.isPlaying = true;
+// };
+//
+// Player.prototype.pause = function() {
+//   this.isPlaying = false;
+// };
